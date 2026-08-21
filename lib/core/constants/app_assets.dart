@@ -1,0 +1,19 @@
+abstract final class AppAssets {
+  static const logo = 'assets/images/logo.png';
+  static const authBg = 'assets/images/auth-bg.jpeg';
+  static const hero = 'assets/images/herosection.png';
+  static const takeActionDesktop = 'assets/images/take-action-desktop.png';
+  static const takeActionMobile = 'assets/images/take-action-mobile.png';
+  static const reportTrash = 'assets/images/report-trash.png';
+  static const trackProgress = 'assets/images/track-progress.png';
+  static const supportMovement = 'assets/images/support-movement.png';
+  static const collectTrash = 'assets/images/collect-trash.jpg';
+  static const map = 'assets/images/map.jpg';
+  static const bannerDefault = 'assets/images/banner-default.jpg';
+  static const defaultAvatar = 'assets/images/default-avatar.png';
+  static const profile = 'assets/images/profile.png';
+  static const google = 'assets/images/google.png';
+  static const flagEn = 'assets/images/england.webp';
+  static const flagVi = 'assets/images/vietnam.webp';
+  static const trashDetector = 'assets/images/trash-detector.webp';
+}

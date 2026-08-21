@@ -1,0 +1,29 @@
+abstract final class AppRoutes {
+  static const home = '/';
+  static const campaigns = '/campaigns';
+  static const campaignsCreate = '/campaigns/create';
+  static const campaignsMe = '/campaigns/me';
+  static String campaignDetail(String id) => '/campaigns/$id';
+  static const incidents = '/incidents';
+  static const incidentsCreate = '/incidents/create';
+  static const incidentsMe = '/incidents/me';
+  static String incidentDetail(String id) => '/incidents/$id';
+  static const organizations = '/organizations';
+  static const organizationsCreate = '/organizations/create';
+  static const organizationsMe = '/organizations/me';
+  static String organizationDetail(String slug) => '/organizations/$slug';
+  static const gifts = '/gifts';
+  static const profile = '/profile';
+  static const profileAccount = '/profile/account';
+  static const profileNotifications = '/profile/notification-settings';
+  static const profilePoints = '/profile/points';
+  static const profileOrders = '/profile/orders';
+  static const maps = '/maps';
+  static const signIn = '/sign-in';
+  static const signUp = '/sign-up';
+  static const authenticate = '/authenticate';
+  static const resetPassword = '/reset-password';
+  static const requestResetPassword = '/request-reset-password';
+  static const googleCallback = '/google-callback';
+  static const oauthGoogleCallback = '/auth/oauth/google/callback';
+}
